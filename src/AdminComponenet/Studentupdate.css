@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* .UPdate{
+    width: 40%;
+    height: 200px;
+    margin:0% auto;
+    border: 2px solid black;
+} */
+
+.UPdate {
+     max-width: 400px; 
+    
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:rgb(209, 204, 195);
+    margin: 10% auto;
+  }
+  
+  .UPdate form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .UPdate label {
+    margin-bottom: 8px;
+  }
+  
+  .UPdate input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .UPdate button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom right, rgb(255, 149, 49), rgb(255, 125, 40));
+ 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .UPdate button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,310 @@
+
+
+/* * {
+    margin: 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+
+#hiii{
+     width: 100%;
+    height: 641px; 
+    overflow: hidden;
+    
+    display: flex;
+    
+  align-items: flex-start; 
+    
+}
+#content {
+      
+     
+    font-size: 20px;
+    flex: 1; 
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    border: 2px solid black; 
+  }
+
+ .menu{
+  margin-top: -1%;
+   margin-left: -98%;
+   float: left;
+   display: none;
+ }
+  
+#sii{
+     width: 25%;
+    height: 600px; 
+   
+ }
+ #for-moving{
+   width: 90%; 
+    margin: -1% auto;
+  border: 2px solid black;
+  padding-left: 27%;
+  font-size: 22px;
+  
+}  
+
+ */
+
+
+
+/* @media only screen and (max-width: 1366px){
+  .sii{
+    width: 25%;
+   height: 600px; 
+  
+}
+}  */
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+#hiii {
+  width: 100%;
+  height: 641px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+
+#content {
+  font-size: 20px;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.menu {
+  margin-top: -1%;
+  margin-left: -98%;
+  float: left;
+} */
+
+/* #sii {
+  width: 25%;
+  height: 600px;
+} */
+
+/* .Sidebar11{
+  width: 25%;
+  height: 600px;
+}
+
+#for-moving {
+  width: 90%;
+  margin: -1% auto;
+  border: 2px solid black;
+  padding-left: 27%;
+  font-size: 22px;
+}
+
+ @media only screen and (max-width: 768px) {
+  .Sidebar11 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+  }
+
+  
+  
+}  */
+
+
+
+ 
+/* Admin.css */
+
+/* #hiii { */
+  /* display: flex;
+  width: 100%;
+  height: 100vh;
+  border: 2px solid green; */
+  /* width: 100%;
+  height: 641px;
+  overflow: hidden;
+  display: flex;
+  border: 3px solid black;
+  align-items: flex-start;
+} */
+
+/* .Sidebar11 {
+  
+  width: 25%;
+  
+  color: white;
+  position: fixed;
+  top: 0;
+  
+  left: 0;
+  bottom: 0;
+  height: 640px;
+  transition: left 0.3s; 
+} */
+
+/* .Sidebar11.active {
+  left: 0;
+}
+
+#content {
+  width: 100%;
+  
+  
+  position: fixed;
+  padding: 0px;
+border: 6px solid solid yellowgreen ;
+  height: 100vh;
+  
+} */
+
+/* .Sidebar11.active + #content {
+  margin-left: 30%;
+  border: 3px solid blue;
+} 
+
+.menu {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#for-moving {
+  margin-top: 60px;
+}
+
+@media (max-width: 800px){
+  .Sidebar11 {
+    width: 250px;
+   
+    color: white;
+    position: fixed;
+    top: 0;
+     left: -250px; 
+    left: 0;
+    height: 100%;
+    transition: left 0.3s;
+  }
+} */
+
+/* Admin.css */
+/* Admin.css */
+
+#admin-container {
+  width: 100%;
+    height: 640px; 
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+   
+    
+}
+
+.sidebar {
+  width: 25%;
+
+}
+
+
+
+#content {
+  width: 73%;
+   display: flex;
+    flex-direction: column;
+    padding: 10px;
+  align-items: center;
+  
+   
+}
+
+
+
+
+
+#for-moving {
+/* width: 100%;
+height: 50px; */
+border: none;
+margin: 4% auto;
+
+}
+
+/* #for-moving h3{
+  margin: 2% auto;
+  padding-left: 22%;
+  
+} */
+
+ @media (max-width: 590px){
+  #for-moving h3{
+    font-size: 16px;
+  }
+}
+  @media (max-width: 453px){
+    #for-moving h3{
+      font-size: 14px;
+    }
+
+  }
+
+  @media (max-width: 372px){
+    #for-moving h3{
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 314px){
+    #for-moving h3{
+      display: none;
+    }
+  }
+
+ 
+
+/* @media (max-width: 790px){
+  
+} */
+/* @media (max-width: 800px) {
+  .sidebar {
+    width: 250px;
+    left: -250px;
+    height: 100%;
+    transition: left 0.3s;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .sidebar.active + #content {
+    margin-left: 250px;
+  }
+} */
+
+

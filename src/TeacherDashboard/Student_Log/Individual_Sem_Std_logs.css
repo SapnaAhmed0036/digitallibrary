@@ -1,0 +1,88 @@
+* {
+    margin: 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+#teacher-dashboard{
+    width: 100%;
+    height: 640px; 
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start; 
+}
+
+#teacher-sidebar-show{
+    width: 25%;
+}
+
+
+#teacher-content {
+    font-size: 20px;
+    height: 640px; 
+    flex: 1; 
+    padding: 10px;
+    background-color: rgb(209, 204, 195);
+    margin-left: 0.3%;
+  }
+  
+
+#teacher-dashboard-heading{
+   width: 38%;
+   margin: 3% 40%;
+   font-size: 22px;
+  
+}
+
+#students{
+    display: flex;
+    flex-direction: column;
+}
+
+.sapna{
+    width: 100%;
+    height: 100px;
+   
+    margin-bottom:0%;
+
+}
+
+.sapna h3 {
+margin-top: 1.3%;
+margin-left: 3%;
+}
+.sapna p{
+    margin-left: 3%;
+}
+
+.sapna:hover{
+    border: 2px solid rgb(255, 125, 40); 
+    background-color: white;
+    cursor: pointer;
+}
+
+.mehran{
+    width: 100%;
+    height: 100px;
+   
+    margin-bottom:0%;
+
+}
+
+.mehran h3 {
+margin-top: 1.3%;
+margin-left: 3%;
+}
+
+.mehran p{
+    margin-left: 3%;
+}
+
+.mehran:hover{
+    border: 2px solid rgb(255, 125, 40); 
+    background-color: white;
+    cursor: pointer;
+}

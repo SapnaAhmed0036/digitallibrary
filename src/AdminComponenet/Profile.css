@@ -1,0 +1,84 @@
+/* Profile.css */
+.profile-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Full viewport height */
+  background-color: #f4f4f4; /* Optional background for visual aid */
+}
+
+.profile-content {
+  display: flex;
+  align-items: start;
+  gap: 20px;               /* Adjust spacing between sidebar and content */
+  padding: 20px;
+  background-color: white; /* Background color for the content area */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.icon-wrapper {
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 80px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.password-input {
+  height: 40px; /* Decrease height of the input */
+  font-size: 20px; /* Adjust font size for better fit */
+}
+
+.password-visibility-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px; /* Match the input height */
+  padding: 0 10px; /* Adjust padding for the button */
+}
+
+.visibility-icon {
+  font-size: 25px; /* Decrease the size of the icon */
+}
+
+.button-wrapper {
+  margin-top: 10px; /* Add some space above the button */
+  display: flex;
+  width: 100%;
+  justify-content: flex-start; /* Align button to the left */
+}
+
+
+
+.text-light {
+  color: #ffffff;
+}
+
+#update_button{
+  width: 100%;
+}

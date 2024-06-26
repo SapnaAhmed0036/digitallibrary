@@ -1,0 +1,21 @@
+/* customStyles.css */
+.custom-bg-cyan {
+    background-color: #044E54 !important; /* $cyan-900 */
+  }
+
+ .white-bg{
+    background-color:whitesmoke;
+ }
+ 
+ .offcanvas-title{
+    margin-bottom: 5%;
+ }
+  
+ .nav-item{
+    border: 2px solid black;
+    
+    width: 100%;
+    height: 60px;
+    margin:9px auto;
+    background-color: #044E54 !important;
+ }

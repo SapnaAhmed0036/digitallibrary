@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.custom-bg-cyan {
+  background-color: #044E54 !important; /* $cyan-900 */
+}
+
+
+.form-check-input:checked{
+ background-color:#044E54;
+}
+.login_form{
+  width: 40%;
+  height: 70vh;
+  margin: 0% auto;
+ 
+}
+
+.custom-border{
+  border: 2px solid rgb(121, 114, 114); /* Default border color */
+  outline: none; /* Remove default browser outline */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+.custom-border:focus {
+  border: 3px solid #044E54;; /* Change border to purple on focus */
+  outline: none; /* Ensure no default outline is shown */
+  box-shadow: none; /* Change to purple on focus */
+}

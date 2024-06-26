@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+ .all-courses{
+    width: 100%;
+    min-height: 641px;
+    display: flex;
+    padding: 0px;
+    background-color: whitesmoke ;
+    overflow: hidden;
+} 
+
+#side-bar-container{
+    width: 25%;
+    height: 600px;
+    margin-left: 0%;
+    
+} 
+
+#content{
+    width: 70%;
+    height: 641px;
+    margin-left: 0.3%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(209, 204, 195);
+    flex: 1;
+}
+
+.head-section h1{
+    /* width: 60%;
+    height: 40px;
+    margin: 4% 42%;
+    font-size: 15px; */
+
+    font-size: 20px;
+    
+}
+
+
+
+
+.Assign-couse{
+    width: 200px;
+    height: 100px;
+
+    margin-left: 82%;
+    margin-top: -8%;
+}
+.Assign-couse button{
+    width: 150px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 18px;
+    margin-right: 20%;
+    border: 2px solid rgb(245, 115, 40);
+    border-radius: 30px;
+          box-shadow: 7px 7px 5px rgb(255, 125, 40); 
+    background-color:white;
+}
+#delete{
+    height: 50px;
+    width: 5%;
+    border: none;
+    margin:-5.0% 0% 0% 90%;
+    
+} 
+
+ #delete:hover{
+    cursor: pointer;
+} 
+
+
+.check-2 ol li{
+    height: 75px;
+    width: 100%;
+    margin-top: 0.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+} 
+
+.check-2 ol{
+    list-style-type: none;
+}
+
+.check-2 ol li:hover{
+    border: 2px solid rgb(245, 115, 40);
+    background-color:white;
+   
+} 
+ .Add-course{
+    width: 100%;
+    height: 40px;
+    margin-left: 3%;
+   
+    
+} 
+.Add-course:hover{
+  cursor: pointer;
+}  

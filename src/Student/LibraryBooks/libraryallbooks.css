@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.Library-books{
+  /* width: 50%; */
+  height: 540px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 2px solid black;
+  margin: 2% auto;
+}
+
+.book-details{
+    width: 50%;
+   border: 2px solid blue;
+}

@@ -1,0 +1,359 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.all-teachers{
+    width: 100%;
+    min-height: 641px;
+    
+   display: flex;
+    padding: 0px;
+    background-color: whitesmoke ;
+
+     overflow: hidden;
+   
+} 
+
+#side-bar-container{
+    width: 25%;
+    height: 600px;
+    margin-left: 0%;
+    
+} 
+
+#content{
+    width: 70%;
+    height: 641px;
+    margin-left: 0.3%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(209, 204, 195);
+       
+       flex: 1;
+}
+
+.teacher-heading{
+    width: 40%;
+    height: 40px;
+    margin: 4% 34%;
+}
+
+ 
+.edit{
+    height: 50px;
+    width: 5%;
+    border: none;
+    margin:-3.3% 0% 0% 80%;
+   
+} 
+.edit:hover{
+   cursor: pointer; 
+} 
+
+
+ 
+.delete{
+    height: 50px;
+    width: 5%;
+    border: none;
+    
+    margin:-5.0% 0% 0% 90%;
+    
+} 
+
+ .delete:hover{
+    cursor: pointer;
+} 
+
+
+.check ol li{
+    height: 75px;
+   
+    width: 100%;
+    margin-top: 0.5%;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+} 
+
+.check ol{
+    list-style-type: none;
+}
+
+.check ol li:hover{
+    border: 2px solid rgb(245, 115, 40);
+    background-color:white;
+   
+} 
+ #Add-icon{
+    width: 100%;
+    height: 40px;
+    margin-left: 3%;
+   
+    
+} 
+  #Add-icon:hover{
+  cursor: pointer;
+}   */
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.all-teachers{
+   
+    width: 100%;
+    min-height: 641px;
+    
+   display: flex;
+    padding: 0px;
+    background-color: whitesmoke ;
+
+     overflow: hidden;
+   
+} 
+
+#side-bar-container{
+    width: 25%;
+    height: 600px;
+    margin-left: 0%;
+    
+} 
+
+h1,#teacher-heading{
+    margin: 2rem auto;
+}
+ 
+.teacher-heading{
+    width: 100%;
+    height: 90px;
+    border: none;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 18px;
+}
+.teacher-heading h3{
+ float: left;
+ padding-top: 3%;
+ padding-left: 35%;
+}
+.logout-icon{
+    float: right;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    
+}
+ 
+.edit-1{
+    height: 50px;
+    width: 5%;
+    border: none;
+    margin:-3.3% 0% 0% 80%;
+   
+} 
+.edit-1:hover{
+   cursor: pointer; 
+} 
+
+ 
+
+ .delete-1:hover{
+    cursor: pointer;
+} 
+
+.check-1 ol li{
+    height: 75px;
+   
+    width: 100%;
+    margin-top: 0%;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+} 
+
+.check-1 ol{
+    list-style-type: none;
+}
+
+.check-1 ol li:hover{
+    border: 2px solid rgb(245, 115, 40);
+    background-color:white;
+   
+} 
+ .Add-icon{
+    width: 100%;
+    height: 40px;
+    margin-left: 3%;
+   
+    
+} 
+  .Add-icon:hover{
+  cursor: pointer;
+} 
+@media only screen and (max-width:1190px){
+    .delete-1{
+ 
+       margin:-6.0% 0% 0% 90%;
+        
+    }    
+}
+
+@media only screen and (max-width:1016px){
+    .delete-1{
+ 
+       margin:-7.0% 0% 0% 90%;
+        
+    }    
+}
+
+@media only screen and (max-width:934px){
+    .delete-1{
+ 
+        margin:-7.5% 0% 0% 90%;
+         
+     }  
+}
+
+@media only screen and (max-width:878px){
+    .delete-1{
+ 
+        margin:-8.5% 0% 0% 90%;
+         
+     }   
+}
+
+@media only screen and (max-width:742px){
+    .delete-1{
+ 
+        margin:-10.5% 0% 0% 90%;
+         
+     }   
+}
+
+@media only screen and (max-width:672px){
+    .delete-1{
+ 
+        margin:-11.5% 0% 0% 90%;
+         
+     }   
+}
+
+@media only screen and (max-width:604px){
+    .delete-1{
+ 
+        margin:-12.0% 0% 0% 90%;
+         
+     }   
+
+}
+@media only screen and (max-width:564px){
+    .delete-1{
+    margin:-14.0% 0% 0% 90%;
+         
+     }   
+}
+@media only screen and (max-width:524px){
+    .delete-1{
+    margin:-14.5% 0% 0% 85%;
+         
+     } 
+     .edit-1{
+       
+        margin:-6.5% 0% 0% 68%;
+       
+    }  
+}
+
+
+@media only screen and (max-width:464px){
+    .delete-1{
+    margin:-15.5% 0% 0% 85%;
+         
+     } 
+    }
+
+    @media only screen and (max-width:416px){
+        .delete-1{
+        margin:-17.5% 0% 0% 85%;
+             
+         } 
+
+         .edit-1{
+       
+            margin:-9.5% 0% 0% 68%;
+           
+        } 
+        }
+        
+        @media only screen and (max-width:390px){
+            .delete-1{
+            margin:-18.9% 0% 0% 83%;
+                 
+             }
+             .edit-1{
+       
+                margin:-10.9% 0% 0% 65%;
+               
+            } 
+         }
+
+         @media only screen and (max-width:390px){
+            .delete-1{
+            margin:-20.9% 0% 0% 83%;
+                 
+             }
+         }     
+
+         @media only screen and (max-width:336px){
+            .delete-1{
+            margin:-22.9% 0% 0% 83%;
+                 
+             }
+             .edit-1{
+       
+                margin:-11.9% 0% 0% 65%;
+               
+            }  
+         } 
+         
+         @media only screen and (max-width:336px){
+            .delete-1{
+                margin:-24.9% 0% 0% 83%;
+                     
+                 }
+         }
+
+@media only screen and (max-width:952px){
+    #std-heading h3{
+        font-size: 16px;
+        padding-top: 3%;
+
+       }
+       .logout-icon{
+           
+        margin-top: 4%;
+       }  
+}
+
+@media only screen and (max-width:506px){
+    #std-heading h3{
+        display: none;
+    }
+    .logout-icon{
+           
+        margin-top: 6%;
+       } 
+}
+

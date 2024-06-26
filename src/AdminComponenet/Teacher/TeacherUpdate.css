@@ -1,0 +1,13 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border;
+}
+
+.custom-input {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .custom-bg-cyan {
+    background-color: #044E54 !important; /* $cyan-900 */
+  }
